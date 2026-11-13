@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The notification plugin finds the small icon by its name at run time, so a
+  resource shrinker must not take it for unused.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/ic_stat_damataqe" />

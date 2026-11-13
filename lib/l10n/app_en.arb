@@ -1,0 +1,1861 @@
+{
+  "@@locale": "en",
+  "authorUnknown": "Unknown {tag}",
+  "@authorUnknown": {
+    "placeholders": {
+      "tag": {
+        "type": "String"
+      }
+    }
+  },
+  "actEditingGone": "The message you were editing is gone.",
+  "actReplyingGone": "The message you were replying to was deleted.",
+  "actNoTextToCopy": "There is no text to copy.",
+  "actCopied": "Copied",
+  "actCopiedMany": "Copied {count} messages",
+  "@actCopiedMany": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "actSaveTitle": "Save to your gallery?",
+  "actSaveBodyPicture": "دەمەتەقێ keeps this picture in its own private storage. Saving puts a copy in your phone's gallery, where other apps can see it and where it stays even if you delete the message here. Your phone may ask for permission to save files.",
+  "actSaveBodyVideo": "دەمەتەقێ keeps this video in its own private storage. Saving puts a copy in your phone's gallery, where other apps can see it and where it stays even if you delete the message here. Your phone may ask for permission to save files.",
+  "actSaveBodyFiles": "دەمەتەقێ keeps these {count} files in its own private storage. Saving puts a copy in your phone's gallery, where other apps can see it and where it stays even if you delete the message here. Your phone may ask for permission to save files.",
+  "@actSaveBodyFiles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "actSaved": "Saved to your gallery",
+  "actSavedMany": "Saved {count} files to your gallery",
+  "@actSavedMany": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "actSavedSome": "Saved {saved} of {total}. {reason}",
+  "@actSavedSome": {
+    "placeholders": {
+      "saved": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "actPinnedNote": "Pinned. Only you see this pin.",
+  "actUnpinnedNote": "Unpinned",
+  "actForwardPublicTitle": "Forward to a public room?",
+  "actForwardPublicBody": "Everyone nearby can read what you forward there, it is not private any more, and it shows the name of the person who wrote it. It disappears from phones after six hours.",
+  "actForwardPublicAction": "Forward publicly",
+  "actTheChat": "the chat",
+  "actForwardedTo": "Forwarded to {title}",
+  "@actForwardedTo": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "actForwardedMany": "Forwarded {count} messages to {title}",
+  "@actForwardedMany": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "actForwardedSome": "Forwarded {sent} of {total} to {title}. The others could not be read, or their file is not complete.",
+  "@actForwardedSome": {
+    "placeholders": {
+      "sent": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "actNothingDeleted": "{count, plural, =1{Nothing was deleted: that message is already gone.} other{Nothing was deleted: those messages are already gone.}}",
+  "@actNothingDeleted": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "actDeletedUnsent": "{count, plural, =1{Deleted. It had not been sent yet, so nobody receives it.} other{Deleted. They had not been sent yet, so nobody receives them.}}",
+  "@actDeletedUnsent": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "actDeletedManyHere": "{count} messages deleted from this phone.",
+  "@actDeletedManyHere": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "actDeletedHere": "Deleted from this phone.",
+  "actDeletedAskedOthers": "{count, plural, =1{Deleted here. Other phones remove it when they receive the request.} other{Deleted here. Other phones remove them when they receive the request.}}",
+  "@actDeletedAskedOthers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "actDeletedNeverSent": "{count, plural, =1{Deleted. Nothing had been sent yet, so nobody else ever receives it.} other{Deleted. Nothing had been sent yet, so nobody else ever receives them.}}",
+  "@actDeletedNeverSent": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "actUnpinnedCount": "Unpinned {count}",
+  "@actUnpinnedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "actPinnedCount": "Pinned {count}. Only you see these pins.",
+  "@actPinnedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "actSelectAll": "Select all",
+  "actFurtherBack": "That message is further back than this chat shows.",
+  "pinnedListTitle": "{count, plural, =1{1 pinned message} other{{count} pinned messages}}",
+  "@pinnedListTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pinnedListNote": "Pins are yours alone: nobody else sees them.",
+  "pinnedListEmpty": "Nothing is pinned.",
+  "startupErrorTitle": "دەمەتەقێ could not start",
+  "startupErrorBody": "The app could not open its private storage or load your keys. Nothing has been deleted, and your identity is never replaced just because it could not be read. Try again; if it keeps failing, restart the phone. As a last resort, uninstalling and reinstalling the app clears the damaged storage, but it also deletes your chats and your identity.",
+  "commonTryAgain": "Try again",
+  "commonCancel": "Cancel",
+  "commonOk": "OK",
+  "commonClose": "Close",
+  "commonDone": "Done",
+  "commonSave": "Save",
+  "commonDelete": "Delete",
+  "commonRemove": "Remove",
+  "commonBack": "Back",
+  "commonSearch": "Search",
+  "commonSend": "Send",
+  "commonCopy": "Copy",
+  "commonShare": "Share",
+  "commonMore": "More",
+  "commonYes": "Yes",
+  "commonNo": "No",
+  "commonOn": "On",
+  "commonOff": "Off",
+  "commonYou": "You",
+  "commonLoading": "Loading…",
+  "actReply": "Reply",
+  "actCopyCaption": "Copy caption",
+  "actCopyText": "Copy text",
+  "actForward": "Forward",
+  "actSaveToGallery": "Save to gallery",
+  "actSendAgain": "Send again",
+  "actUnpin": "Unpin",
+  "actPin": "Pin",
+  "actEdit": "Edit",
+  "actSelect": "Select",
+  "actDetails": "Details",
+  "deleteTitle": "{count, plural, =1{Delete message?} other{Delete {count} messages?}}",
+  "@deleteTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteForMeNote": "{count, plural, =1{Delete for me removes it from this phone only. Everyone else keeps their copy.} other{Delete for me removes them from this phone only. Everyone else keeps their copy.}}",
+  "@deleteForMeNote": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteEveryoneDirect": "{count, plural, =1{Delete for everyone also asks {who}'s phone to remove it. It is a request: it takes effect when their phone receives it (they must come into range within about 12 hours). A copy somebody saved or photographed cannot be reached.} other{Delete for everyone also asks {who}'s phone to remove them. It is a request: it takes effect when their phone receives it (they must come into range within about 12 hours). A copy somebody saved or photographed cannot be reached.}}",
+  "@deleteEveryoneDirect": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteEveryoneGroup": "{count, plural, =1{Delete for everyone also asks every member's phone to remove it. It is a request: it takes effect on each phone when it receives it, and a phone that is out of range gets it later, if it comes back in time. A copy somebody saved or photographed cannot be reached.} other{Delete for everyone also asks every member's phone to remove them. It is a request: it takes effect on each phone when it receives it, and a phone that is out of range gets it later, if it comes back in time. A copy somebody saved or photographed cannot be reached.}}",
+  "@deleteEveryoneGroup": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteEveryoneRoom": "Delete for everyone also asks every phone nearby that has {count, plural, =1{it to remove it} other{them to remove them}}. It is a request: it takes effect on each phone when it receives it, and a phone that is out of range gets it later, if it comes back in time. A copy somebody saved or photographed cannot be reached.",
+  "@deleteEveryoneRoom": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteEveryoneOwnOnly": "Delete for everyone is only possible for your own messages.",
+  "deleteEveryoneOwnOrAdmin": "Delete for everyone is only possible for your own messages (and for the group's admin).",
+  "deleteForMe": "Delete for me",
+  "deleteForEveryone": "Delete for everyone",
+  "selCancel": "Cancel selection",
+  "selCount": "{count} selected",
+  "@selCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "quoteOriginalDeleted": "Original message deleted",
+  "forwardedFrom": "Forwarded from {name}",
+  "@forwardedFrom": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pinnedOf": "Pinned message {index} of {count}",
+  "@pinnedOf": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pinnedMessage": "Pinned message",
+  "pinnedAll": "All pinned messages",
+  "delWaiting": "{count, plural, =1{Waiting for {name}'s phone to confirm a deleted message. It happens as soon as you are in range.} other{Waiting for {name}'s phone to confirm {count} deleted messages. It happens as soon as you are in range.}}",
+  "@delWaiting": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "delExpired": "{count, plural, =1{{name}'s phone did not get a delete request in time, so that message may still be there.} other{{name}'s phone did not get {count} delete requests in time, so those messages may still be there.}}",
+  "@delExpired": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "snippetUnreadable": "Message could not be read",
+  "replyingTo": "Replying to {name}",
+  "@replyingTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "editMessageTitle": "Edit message",
+  "cancelEditing": "Cancel editing",
+  "cancelReply": "Cancel reply",
+  "bubbleUndecryptable": "This message could not be decrypted or verified, so it was not shown. It may have been corrupted, tampered with, or encrypted for a different key.",
+  "bubblePicture": "Picture",
+  "bubbleVideo": "Video",
+  "bubbleVoice": "Voice message",
+  "bubbleEdited": "edited",
+  "bubbleViaRelays": "{hops, plural, =1{via 1 relay} other{via {hops} relays}}",
+  "@bubbleViaRelays": {
+    "placeholders": {
+      "hops": {
+        "type": "int"
+      }
+    }
+  },
+  "bubbleNotDelivered": "This message could not be delivered.",
+  "composerCouldNotSend": "Could not send: {error}",
+  "@composerCouldNotSend": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "attachSendPicture": "Send a picture",
+  "attachTakePhoto": "Take a photo",
+  "attachChoosePhoto": "Choose from your photos",
+  "attachPictureNote": "Pictures are shrunk to a few dozen kilobytes so they can cross Bluetooth, and are sent only to the people in this chat.",
+  "attachSendVideo": "Send a video",
+  "attachRecordVideo": "Record a short video",
+  "attachChooseVideo": "Choose a video",
+  "attachVideoNote": "Videos are not shrunk: only a very short, low-quality clip (up to {limit}) can cross Bluetooth, and it can take minutes. Bigger ones are refused. You can change the limit under Settings > Storage.",
+  "@attachVideoNote": {
+    "placeholders": {
+      "limit": {
+        "type": "String"
+      }
+    }
+  },
+  "composerAllowPicture": "Allow access to send a picture.",
+  "composerOpenCameraFailed": "Could not open the camera: {error}",
+  "@composerOpenCameraFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "composerOpenPhotosFailed": "Could not open the photos: {error}",
+  "@composerOpenPhotosFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "composerOpenVideosFailed": "Could not open the videos: {error}",
+  "@composerOpenVideosFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "composerPictureNotPrepared": "That picture could not be prepared: {error}",
+  "@composerPictureNotPrepared": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "composerAllowVideo": "Allow access to send a video.",
+  "composerVideoTooBig": "That video is {size}. Over Bluetooth a video can be at most {limit} (you can raise this under Settings > Storage, up to {max}). Choose a shorter or smaller clip.",
+  "@composerVideoTooBig": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      },
+      "limit": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "composerAllowMic": "Allow the microphone to record a voice message.",
+  "composerRecordFailed": "Could not start recording: {error}",
+  "@composerRecordFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "composerVoiceTooShort": "That was too short for a voice message. Keep the microphone open a little longer.",
+  "composerBytesCounter": "{bytes} / {max} bytes",
+  "@composerBytesCounter": {
+    "placeholders": {
+      "bytes": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "composerTooLong": "Too long",
+  "composerSaveChanges": "Save changes",
+  "composerRecord": "Record a voice message",
+  "composerDiscard": "Discard the recording",
+  "composerSendVoice": "Send the voice message",
+  "previewSendPicture": "Send this picture?",
+  "previewSendVideo": "Send this video?",
+  "previewCaptionHint": "Add a caption (optional)",
+  "previewVideoNote": "It goes over Bluetooth, only to the people in this chat, and it can take several minutes - longer when it has to pass through other phones. The person has to stay in range, with the app open, until it arrives.",
+  "chatFallbackLower": "chat",
+  "chatSearchTooltip": "Search this chat",
+  "chatFallbackGroup": "Group",
+  "chatFallbackChat": "Chat",
+  "chatGroupMembers": "{count, plural, =1{1 member} other{{count} members}}",
+  "@chatGroupMembers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupMembersNearby": "{count, plural, =1{1 member · {nearby} nearby} other{{count} members · {nearby} nearby}}",
+  "@chatGroupMembersNearby": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "nearby": {
+        "type": "int"
+      }
+    }
+  },
+  "chatInvitation": "Invitation",
+  "chatGroupDetails": "Group details",
+  "chatVerifiedContact": "Verified contact",
+  "chatVerifyContact": "Verify this contact",
+  "chatTheOtherPerson": "the other person",
+  "composerHint": "Message",
+  "chatRemovedFromGroup": "You were removed from this group",
+  "chatYouBlocked": "You blocked this contact",
+  "chatEmptyGroup": "No messages yet. Everything here is encrypted with the group's key and reaches every member, now or when they are next in range.",
+  "chatEmptyDirect": "No messages yet. They are end-to-end encrypted, and wait here if the other phone is out of range.",
+  "chatToday": "Today",
+  "stripWaitingForKey": "Waiting for this person's encryption key. It arrives automatically the first time you are in range of them.",
+  "stripDirect": "Directly connected. Messages are delivered immediately.",
+  "stripRelayed": "Reachable through other phones ({hops} hops). Messages are relayed, still end-to-end encrypted.",
+  "@stripRelayed": {
+    "placeholders": {
+      "hops": {
+        "type": "int"
+      }
+    }
+  },
+  "stripOffline": "Not reachable right now. Messages wait on this phone and are sent as soon as this person (or a phone that can reach them) comes into range, for up to 12 hours.",
+  "fwdTitle": "{count, plural, =1{Forward to…} other{Forward {count} messages to…}}",
+  "@fwdTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "fwdSearchHint": "Search chats",
+  "fwdNoTargets": "There is no chat to forward to yet. Start a chat with someone nearby first.",
+  "fwdNoMatch": "No chat matches \"{query}\".",
+  "@fwdNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "fwdPrivateChat": "Private chat",
+  "fwdPublicRoom": "Public room · everyone nearby can read it",
+  "commonClear": "Clear",
+  "searchInTitle": "Search in {title}",
+  "@searchInTitle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "searchPictures": "Pictures",
+  "searchVideos": "Videos",
+  "searchVoice": "Voice",
+  "searchFromMe": "From me",
+  "searchEmptyBody": "Type a word, or pick Pictures, Videos or Voice to see only those. Messages that were deleted are not searched: they are gone.",
+  "searchNoMatch": "No message in this chat matches.",
+  "detailUnknownPhone": "Unknown phone",
+  "detailAnyMoment": "any moment now",
+  "detailInMinutes": "in {minutes} min",
+  "@detailInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "detailInHours": "in {hours} h",
+  "@detailInHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "detailInHoursMinutes": "in {hours} h {minutes} min",
+  "@detailInHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "detailTitle": "Message details",
+  "detailFrom": "From",
+  "detailDirection": "Direction",
+  "detailSentByYou": "Sent by you",
+  "detailReceived": "Received",
+  "detailType": "Type",
+  "detailSize": "Size",
+  "detailStatus": "Status",
+  "detailConfirmedBy": "Confirmed by",
+  "detailConfirmedOf": "{done} of {total} members",
+  "@detailConfirmedOf": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "detailHasIt": "Has it",
+  "detailNotYet": "Not yet",
+  "detailSentTheirClock": "Sent (their clock)",
+  "detailWrittenSaved": "Written and saved",
+  "detailReceivedSaved": "Received and saved",
+  "detailEdited": "Edited",
+  "detailForwardedFrom": "Forwarded from",
+  "detailReplyTo": "Reply to",
+  "detailReplyDeleted": "a message that was deleted",
+  "detailPinned": "Pinned",
+  "detailPinnedValue": "Yes - only on this phone",
+  "detailDisappears": "Disappears",
+  "detailDisappearsValue": "{when} ({remaining}). Messages of public rooms are removed from this phone six hours after they arrive.",
+  "@detailDisappearsValue": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      },
+      "remaining": {
+        "type": "String"
+      }
+    }
+  },
+  "detailReceiptPath": "Receipt path",
+  "detailRoute": "Route",
+  "detailRadioHops": "{count} radio hops",
+  "@detailRadioHops": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "detailPassedThrough": "{hops, plural, =1{passed through 1 relay} other{passed through {hops} relays}}",
+  "@detailPassedThrough": {
+    "placeholders": {
+      "hops": {
+        "type": "int"
+      }
+    }
+  },
+  "detailNote": "Note",
+  "detailClockSkew": "The sender's clock differs from yours by more than 10 minutes.",
+  "detailProblem": "Problem",
+  "detailMessageId": "Message id",
+  "galDenied": "دەمەتەقێ was not allowed to add to your gallery. You can allow it in your phone's settings.",
+  "galNoSpace": "There is not enough space on this phone to save it.",
+  "galUnsupported": "This phone cannot save that kind of file to the gallery.",
+  "galFailed": "It could not be saved to the gallery.",
+  "galPictureGone": "That picture is no longer on this phone.",
+  "galVideoGone": "That video cannot be saved from this phone.",
+  "galVoice": "Voice messages cannot be saved to the gallery.",
+  "imgUnreadable": "That file is not a picture this phone can read.",
+  "imgTooDetailed": "That picture is too detailed to send over Bluetooth.",
+  "voiceMicOff": "The microphone is switched off for دەمەتەقێ.",
+  "radarListening": "Listening for people nearby",
+  "commonStop": "Stop",
+  "diagRunAgain": "Run again",
+  "diagRun": "Run self-test",
+  "diagReportCopied": "Report copied",
+  "diagCopyReport": "Copy report",
+  "diagLogTitle": "Activity log",
+  "diagLogNote": "Kept in memory only; gone when the app closes",
+  "diagIntroTitle": "Check that Bluetooth really works",
+  "diagIntroBody": "Best done with two phones side by side, both running دەمەتەقێ with Bluetooth on. Turn Wi-Fi and mobile data off first to prove nothing needs the internet. The test takes about half a minute and tells you what to fix if a step fails.",
+  "diagPass": "Everything that could be tested passed",
+  "diagPassBody": "These phones found each other, proved their identities and exchanged data over Bluetooth.",
+  "diagWarn": "Works, with something to look at",
+  "diagWarnBody": "Nothing failed, but at least one step could not be fully tested or ran into trouble. See below.",
+  "diagFail": "A problem was found",
+  "diagFailBody": "Follow the advice under the failed step, then run the test again.",
+  "diagNoResult": "No result",
+  "diagLimitsTitle": "What a pass does and does not mean",
+  "diagLimitsBody": "A pass means these two phones, right now, found each other, connected, authenticated each other and moved data both ways, including messages too big for one Bluetooth packet. It does not measure range, battery use, or how other phone models behave, and relaying through a third phone needs three phones to test. Phones differ a lot in Bluetooth quality, so test with the models you will use.",
+  "diagLogCopied": "Log copied",
+  "diagLogWarn": "The log can contain Bluetooth addresses of phones around you. Check it before sharing. It never contains keys or message text.",
+  "diagLogEmpty": "Nothing logged yet.",
+  "stNothingToClean": "Nothing to clean: every public message is less than six hours old.",
+  "stRemovedPublic": "{count, plural, =1{Removed 1 public message.} other{Removed {count} public messages.}}",
+  "@stRemovedPublic": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stDeleteMediaTitle": "Delete all pictures, voice messages and videos?",
+  "stDeleteMediaBody": "They are removed from this phone together with their messages. Nobody else is told and other phones keep their copies. This cannot be undone.",
+  "stDeleteMediaAction": "Delete them",
+  "stNothingToDelete": "There was nothing to delete.",
+  "stDeletedMedia": "{count, plural, =1{Deleted 1 message with files.} other{Deleted {count} messages with files.}}",
+  "@stDeletedMedia": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stMessages": "Messages",
+  "stMedia": "Pictures, voice messages and videos",
+  "stFiles": "{count, plural, =1{1 file} other{{count} files}}",
+  "@stFiles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stDatabase": "Message database",
+  "stPublic": "Public chats",
+  "stMessagesCount": "{count, plural, =1{1 message} other{{count} messages}}",
+  "@stMessagesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stPublicNoteNever": "Removed from this phone six hours after they arrive. Nothing has been removed yet.",
+  "stPublicNote": "Removed from this phone six hours after they arrive. Last clean-up {ago}, {removed} removed.",
+  "@stPublicNote": {
+    "placeholders": {
+      "ago": {
+        "type": "String"
+      },
+      "removed": {
+        "type": "int"
+      }
+    }
+  },
+  "stVideoLimit": "Largest video you send",
+  "stVideoLimitBody": "A video is not shrunk, so only a very short clip fits. Bigger ones are refused before anything is sent. Larger videos take much longer over Bluetooth, and videos are never sent to public rooms. Videos you receive are accepted up to {max}.",
+  "@stVideoLimitBody": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "stCleanNow": "Clean public chats now",
+  "stCleanNowBody": "They are also cleaned by themselves, about once a minute while the app runs, and when it starts. Private chats and groups are never touched.",
+  "stDeleteMediaTile": "Delete all pictures, voice messages and videos",
+  "stDeleteMediaTileBody": "Frees the most space. The messages that carried them go too.",
+  "stFooter": "To remove old messages automatically, use \"Keep messages\" under Privacy and security in the settings. Messages and files are stored without encryption of their own: they rely on your phone's screen lock and disk encryption.",
+  "nearbyTitle": "Nearby",
+  "nearbyVisible": "Visible to others",
+  "nearbySearching": "Searching",
+  "nearbyScanningNow": "Scanning now",
+  "nearbyBetweenScans": "Between scans",
+  "nearbyStopped": "Stopped",
+  "nearbyHowHard": "How hard to look",
+  "nearbyRunSelfTest": "Run Bluetooth self-test",
+  "nearbyConnected": "Connected phones ({count})",
+  "@nearbyConnected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nearbyNoLinks": "No Bluetooth connections right now. Connections appear here as soon as a nearby phone is found, then show \"Verifying\" until it has proved its identity.",
+  "nearbyHeard": "Devices heard ({count})",
+  "@nearbyHeard": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nearbyNothingHeard": "Nothing heard yet. Other phones running دەمەتەقێ are found within about 10 metres. Both phones need Bluetooth on and the app open.",
+  "nearbyFootnote": "A device being \"heard\" means its Bluetooth advertisement was received. It is not trusted until it completes the identity handshake. Addresses shown here are temporary radio handles, not identities, and may change.",
+  "nearbyCannotAdvertise": "Cannot advertise",
+  "nearbyStartingPill": "Starting",
+  "linkConnected": "Connected",
+  "linkVerifying": "Verifying…",
+  "linkClosing": "Closing",
+  "linkUnnamed": "Unnamed phone",
+  "linkUnverified": "Unverified phone",
+  "linkRole": "Role",
+  "linkWeConnected": "we connected",
+  "linkTheyConnected": "they connected",
+  "linkWriteSize": "Write size",
+  "linkSignal": "Signal",
+  "linkRoundTrip": "Round trip",
+  "linkTraffic": "Traffic",
+  "devHeard": "Heard",
+  "devConnecting": "Connecting…",
+  "devLinked": "Linked",
+  "devRetrying": "Retrying later",
+  "devAlreadyLinked": "Already linked",
+  "devFailedAttempts": "{count, plural, =1{1 failed attempt} other{{count} failed attempts}}",
+  "@devFailedAttempts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "errTypeFirst": "Type a message first.",
+  "errMessageTooLong": "That message is too long ({bytes} of {max} bytes). Please shorten it.",
+  "@errMessageTooLong": {
+    "placeholders": {
+      "bytes": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "errReplyGone": "The message you are replying to is gone.",
+  "errUnknownContact": "That contact is not known yet.",
+  "errBlockedContact": "You have blocked this contact. Unblock them to send messages.",
+  "errBlockedNamed": "You have blocked {name}.",
+  "@errBlockedNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "errNoKey": "We haven't received this person's encryption key yet. Come within range of them (or of a phone that can hear them) once, then try again.",
+  "errNoKeyOnce": "We haven't received this person's encryption key yet. Come within range of them once, then try again.",
+  "errNoKeyNamed": "We haven't received {name}'s encryption key yet. Come within range of them once, then try again.",
+  "@errNoKeyNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "errKeyUnusable": "This contact's encryption key is not usable. Ask them to open the app near you so it can be refreshed.",
+  "errKeyUnusableOne": "One person's encryption key is not usable. Ask them to open the app near you so it can be refreshed.",
+  "errNoKeyForControl": "We don't have this contact's encryption key, so nothing can be sent to them.",
+  "errNoConversation": "That conversation no longer exists.",
+  "errCannotResend": "This message cannot be resent.",
+  "errFileGone": "The file is no longer on this phone.",
+  "errNotQueued": "That could not be queued for sending. Try again.",
+  "unknownAuthor": "Unknown",
+  "errGroupName": "Give the group a name.",
+  "errGroupGone": "That group no longer exists.",
+  "errNotInGroup": "You are not in this group any more.",
+  "errAdminOnly": "Only the group's admin can do that.",
+  "errPickPeople": "Pick at least one person to add.",
+  "errPickNewPeople": "Pick at least one new person to add.",
+  "errGroupFull": "A group can have at most {max} people, including you.",
+  "@errGroupFull": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "errGroupKeyMissing": "This group's key is missing.",
+  "errAdminCannotBeRemoved": "The admin cannot be removed.",
+  "errNotInGroupPerson": "That person is not in the group.",
+  "errCreatorCannotLeave": "You created this group, so you cannot leave it - delete it instead.",
+  "errRoomName": "Give the room a name.",
+  "errRoomGone": "That room is no longer around.",
+  "errMeshCannotLeave": "#mesh is for everyone and cannot be left.",
+  "errJoinFirst": "Join the room to post in it.",
+  "errFileEmpty": "That file is empty.",
+  "errTooLargeForMesh": "That is too large for a Bluetooth mesh ({kb} KB; the limit is {limit} KB).",
+  "@errTooLargeForMesh": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      },
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "errPictureUnreadable": "That picture could not be read.",
+  "errVideoUnreadable": "That video could not be read.",
+  "errRecordingUnreadable": "That recording could not be read.",
+  "errVoiceTooLong": "Voice messages can be at most {seconds} seconds long.",
+  "@errVoiceTooLong": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "errVideoNotInRooms": "Videos cannot be sent to public rooms: every phone in range would have to carry them. Send it in a private chat or a group.",
+  "errVideoTooLarge": "That video is too large to send.",
+  "errNothingToShare": "There is nothing to share.",
+  "errMessageGone": "That message is gone.",
+  "errDeleteGroupOnly": "Only the author, or the admin of the group, can delete a message for everyone.",
+  "errDeleteOwnOnly": "You can only delete your own messages for everyone.",
+  "errDeleteTooOld": "This message is older than {hours} hours, so it can no longer be deleted for everyone.",
+  "@errDeleteTooOld": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "errEditOwnTextOnly": "Only your own text messages can be edited.",
+  "errEditTooOld": "Messages can be edited for {hours} hours after they are sent.",
+  "@errEditTooOld": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "timeYesterday": "Yesterday",
+  "weekdayMon": "Mon",
+  "weekdayTue": "Tue",
+  "weekdayWed": "Wed",
+  "weekdayThu": "Thu",
+  "weekdayFri": "Fri",
+  "weekdaySat": "Sat",
+  "weekdaySun": "Sun",
+  "agoJustNow": "just now",
+  "agoSeconds": "{n} s ago",
+  "@agoSeconds": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "agoMinutes": "{n} min ago",
+  "@agoMinutes": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "agoHours": "{n} h ago",
+  "@agoHours": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "agoDays": "{n} d ago",
+  "@agoDays": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsTitle": "Settings",
+  "homePeople": "People",
+  "homeSearchHint": "Search chats, groups and people",
+  "navPrivate": "Private",
+  "navGroups": "Groups",
+  "navPublic": "Public",
+  "fabNewMessage": "New message",
+  "fabNewGroup": "New group",
+  "homeNoMessagesYet": "No messages yet",
+  "homePrivateEmptyTitle": "No private chats yet",
+  "homeNothingFound": "Nothing found",
+  "homePrivateEmptyBody": "دەمەتەقێ works without internet, using Bluetooth. Ask someone nearby to open the app; when their phone is in range they will appear here.",
+  "homeNoMatchChat": "No chat or person matches \"{query}\".",
+  "@homeNoMatchChat": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "homeSeePeople": "See people",
+  "homeDeleteChatTitle": "Delete this conversation?",
+  "homeDeleteChatBody": "Its messages and pictures are removed from this phone only.",
+  "homeAvailableNow": "Available now",
+  "homeGroupsEmptyTitle": "No groups yet",
+  "homeGroupsEmptyBody": "A group is a private chat for several people at once, encrypted with a key only its members have. Create one with people you have met.",
+  "homeNoMatchGroup": "No group matches \"{query}\".",
+  "@homeNoMatchGroup": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCreateGroup": "Create a group",
+  "homeInvitations": "Invitations ({count})",
+  "@homeInvitations": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeYourGroups": "Your groups",
+  "homeYouLeft": "You left this group",
+  "homeYouWereRemoved": "You were removed",
+  "homeDeleteGroupTitle": "Delete this group?",
+  "homeLeaveGroupTitle": "Leave this group?",
+  "homeDeleteThisChatTitle": "Delete this chat?",
+  "homeDeleteGroupBody": "The group ends for everybody. Each member keeps what they already have.",
+  "homeLeaveGroupBody": "You will stop receiving its messages. Your copy of the chat is deleted from this phone.",
+  "homeDeleteThisChatBody": "The chat is removed from this phone.",
+  "commonContinue": "Continue",
+  "homeSomeone": "Someone",
+  "homeInvitedYou": "{name} invited you · {count} people",
+  "@homeInvitedYou": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "commonDecline": "Decline",
+  "commonAccept": "Accept",
+  "homeMeshSubtitle": "Everyone nearby · public",
+  "homeLeaveRoomTitle": "Leave {room}?",
+  "@homeLeaveRoomTitle": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      }
+    }
+  },
+  "homeLeaveRoomBody": "Its messages and pictures are removed from this phone. You can join again while the room is still around.",
+  "commonLeave": "Leave",
+  "homeNearbyRooms": "Nearby rooms",
+  "homeListeningForRooms": "Listening for rooms. Rooms created by people nearby, or passed on by their phones, appear here.",
+  "homeHeardAgo": "heard {ago}",
+  "@homeHeardAgo": {
+    "placeholders": {
+      "ago": {
+        "type": "String"
+      }
+    }
+  },
+  "commonJoin": "Join",
+  "promptTypeToConfirm": "Type \"{word}\" to confirm:",
+  "@promptTypeToConfirm": {
+    "placeholders": {
+      "word": {
+        "type": "String"
+      }
+    }
+  },
+  "defaultNickname": "Phone {code}",
+  "@defaultNickname": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "previewYou": "You",
+  "previewPhoto": "Photo",
+  "previewVoice": "Voice message",
+  "previewVideo": "Video",
+  "previewUndecryptable": "Message could not be decrypted",
+  "notifyHiddenInvite": "You have a new group invitation",
+  "notifyHiddenMany": "You have {count} new messages",
+  "@notifyHiddenMany": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notifyHiddenOne": "You have a new message",
+  "notifySenderInvite": "Invited you to a group",
+  "notifySenderMany": "{count} new messages",
+  "@notifySenderMany": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notifySenderOne": "New message",
+  "notifyFullInvite": "Invited you to a group",
+  "notifyFullInviteBy": "{name} invited you to a group",
+  "@notifyFullInviteBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifyFullMore": "{line}  (+{count} more)",
+  "@notifyFullMore": {
+    "placeholders": {
+      "line": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notifyChannelName": "Messages",
+  "notifyChannelDescription": "New messages and group invitations",
+  "keepAliveChannelName": "Mesh running in the background",
+  "keepAliveChannelDescription": "Shown while دەمەتەقێ keeps the Bluetooth mesh running with the screen off.",
+  "keepAliveTitle": "دەمەتەقێ is keeping the mesh running",
+  "keepAliveText": "Relaying and receiving messages over Bluetooth. Tap to open.",
+  "obHeadline": "Chat with people nearby.\nNo internet needed.",
+  "obPoint1Title": "Phone to phone, over Bluetooth",
+  "obPoint1Body": "Messages, pictures and voice go straight from one phone to the next. No accounts, no servers, no internet.",
+  "obPoint3Title": "Private chats, groups and public rooms",
+  "obPoint3Body": "Chats and groups are encrypted. Public rooms are open: anyone nearby can read them.",
+  "obPoint4Title": "Asks before it uses anything",
+  "obPoint4Body": "Bluetooth is requested next. The microphone, camera and photos only when you send a voice message or a picture. Never your location or contacts.",
+  "obPoint5Title": "Good to know",
+  "obPoint5Body": "Experimental: the encryption has not been independently audited, and passing messages through other phones has only been tested with simulated radios. More in Settings, under Help and instructions.",
+  "obNameHint": "Shown to people nearby",
+  "obNameNote": "You can change this any time in Settings. It does not have to be your real name.",
+  "obStarting": "Starting…",
+  "obStart": "Allow Bluetooth & start",
+  "gdGone": "This group is gone.",
+  "gdStateActive": "you are in",
+  "gdStateLeft": "you left",
+  "gdStateRemoved": "you were removed",
+  "gdStateInvited": "invitation",
+  "gdEncryptedNote": "Encrypted with a key only the members have. When someone is removed the group gets a new key, so they cannot read anything sent afterwards. They keep what they already received.",
+  "gdMembers": "Members",
+  "gdAdmin": "Admin",
+  "gdRemoveTooltip": "Remove from the group",
+  "gdRemoveTitle": "Remove {name}?",
+  "@gdRemoveTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "gdRemoveBody": "They will no longer receive anything, and the group gets a new key they do not have.",
+  "gdFull": "The group is full",
+  "gdAddPeople": "Add people",
+  "gdDeleteBody": "The group ends for everybody. Each member keeps the messages they already have; nobody can send to it any more.",
+  "gdDeleteAction": "Delete group",
+  "gdDeleteButton": "Delete group for everyone",
+  "gdLeaveBody": "You will stop receiving its messages. The admin will give the group a new key. Your copy of the chat stays on this phone.",
+  "gdLeaveButton": "Leave group",
+  "gdForgetTitle": "Remove from this phone?",
+  "gdForgetBody": "The chat and its messages are deleted from this phone.",
+  "gdForgetButton": "Delete this chat",
+  "gdInvitationsSent": "Invitations sent. The group has a new key.",
+  "gdSelectedOf": "{count} of {room} possible",
+  "@gdSelectedOf": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "room": {
+        "type": "int"
+      }
+    }
+  },
+  "gdInvite": "Invite",
+  "pdNameTitle": "Name this contact",
+  "pdNameHint": "Name",
+  "pdDeleteTitle": "Delete this contact?",
+  "pdDeleteBody": "The contact and your conversation with them will be deleted from this phone. They are not notified. If they are nearby they will reappear as a new, unverified contact.",
+  "pdTitle": "Contact",
+  "pdGone": "This contact no longer exists.",
+  "pdCallsThemselves": "calls themselves \"{name}\"",
+  "@pdCallsThemselves": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pdSendMessage": "Send a message",
+  "pdVerified": "Verified",
+  "pdNotVerified": "Not verified yet",
+  "pdVerifyBody": "Anyone can pick any nickname, and the first time two phones meet there is no way to know the keys are really theirs. To be sure, compare this safety number with the one on their phone - in person or on a call where you recognise their voice. If the numbers are identical, mark them verified. If they differ, do NOT trust this contact.",
+  "pdNoKey": "No encryption key received yet: come into range once.",
+  "pdSafetyNumber": "Safety number",
+  "pdSafetyNote": "This is the same number on both phones. Long-press to copy.",
+  "pdNumbersMatch": "The numbers match",
+  "pdMarkVerified": "Mark this contact as verified",
+  "pdShortId": "Short id",
+  "pdFirstSeen": "First seen",
+  "pdLastSeen": "Last seen",
+  "pdFullFingerprint": "Full fingerprint",
+  "pdRename": "Rename",
+  "pdRenameBody": "Only you see this name",
+  "pdBlock": "Block",
+  "pdBlockBody": "Drop their messages and do not acknowledge them",
+  "pdDeleteContact": "Delete contact",
+  "problemQueueFailed": "Could not be queued for delivery",
+  "problemExpired": "Not delivered: the recipient could not be reached before the message expired.",
+  "problemNobodyInRange": "Nobody was in range to receive this.",
+  "problemFileDamaged": "The file arrived damaged and was discarded.",
+  "problemFileIncomplete": "The rest of this file never arrived.",
+  "feedErrorTitle": "Could not load the messages",
+  "feedErrorBody": "Nothing was deleted. Try again, and if it keeps happening, restart the app.",
+  "homePrivateTitle": "Private chats",
+  "setProfileTitle": "Profile and identity",
+  "setDataHeading": "Data and history",
+  "setChatsBluetooth": "Chats and Bluetooth",
+  "setHelp": "Help and instructions",
+  "setAboutTitle": "About {name}",
+  "@setAboutTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "setLicenses": "Open-source licences",
+  "setLicensesBody": "The fonts and libraries this app is made with",
+  "setLicensesLegalese": "Built with open-source software. Each part keeps its own licence.",
+  "helpPermissionsTitle": "Permissions: what is asked, and when",
+  "helpPermissionsBody": "Bluetooth is requested when you start, so دەمەتەقێ can find nearby phones. The microphone, camera and photos are asked for only if you record a voice message or send a picture - each with an explanation first, and you can say no to any of them. دەمەتەقێ never reads your location or contacts. (Android 11 and older tie Bluetooth scanning to the Location permission; the app still never reads your location.)",
+  "roomYourNameTitle": "Your name here",
+  "roomYourNameBody": "Everyone in range sees this name next to what you write. It does not have to be your real name, and it is not unique: others can pick the same one.",
+  "roomExpiryNote": "Public · messages disappear after 6 hours",
+  "roomSearchTooltip": "Search this room",
+  "roomComposerHint": "Message {room} · public",
+  "@roomComposerHint": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      }
+    }
+  },
+  "roomJoinToPost": "Join this room to post",
+  "roomEmpty": "Nothing here yet. Whatever you write is public: every phone in range (and the phones they pass it to) can read it.",
+  "roomsCreateTitle": "Create a public room",
+  "roomsCreateBody": "Anyone nearby can find the room, join it and read everything said in it. It is not private. The room is listed for a day and renewed automatically while your app is running.",
+  "roomsNameHint": "room name",
+  "roomsAboutHint": "What is it about? (optional)",
+  "commonCreate": "Create",
+  "roomsTitle": "Public rooms",
+  "roomsCreateButton": "Create a room",
+  "peopleFilterAll": "All",
+  "peopleFilterReachable": "Reachable now",
+  "peopleFilterContacts": "Contacts",
+  "peopleEmptyTitle": "Nobody yet",
+  "peopleEmptyFilterTitle": "No one matches this filter",
+  "peopleEmptyBody": "Phones running دەمەتەقێ within Bluetooth range appear here automatically, along with anyone whose announcement reaches you through other phones. Nothing is sent over the internet.",
+  "peopleEmptyFilterBody": "Try another filter.",
+  "peopleSeeNearby": "See what is nearby",
+  "peopleDetailsTooltip": "Contact details and verification",
+  "peoplePickEmpty": "Nobody to message yet. Phones appear here once they are in range.",
+  "groupNoKeyYet": "no encryption key yet - meet them once first",
+  "groupNameLabel": "Group name",
+  "groupCreateNote": "Messages in a group are encrypted with a key only its members have. People you choose get an invitation they can accept or decline; nothing about the group is ever broadcast.",
+  "groupAddPeople": "Add people ({count} of {max})",
+  "@groupAddPeople": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "groupNobodyToAdd": "Nobody to add yet",
+  "groupNobodyBody": "You can only invite people your phone has met. Open دەمەتەقێ near someone and they will appear here.",
+  "groupCreating": "Creating…",
+  "groupCreate": "Create group",
+  "videoCouldNotPlay": "This video could not be played on this phone.",
+  "commonPause": "Pause",
+  "commonPlay": "Play",
+  "secClearTitle": "Clear the security log?",
+  "secClearBody": "The entries are removed from this phone. This cannot be undone.",
+  "secClearTooltip": "Clear log",
+  "secEmptyTitle": "Nothing suspicious recorded",
+  "secEmptyBody": "If a message fails its signature or cannot be decrypted, a phone fails the identity check, or a contact's key changes, it is listed here. Occasional entries can be caused by a weak radio link and are not always an attack.",
+  "secBadSignatureTitle": "A message had an invalid signature",
+  "secBadSignatureBody": "It was dropped. Someone may have forged or altered it, or it was corrupted in the air.",
+  "secDecryptFailedTitle": "A message could not be decrypted",
+  "secDecryptFailedBody": "It was addressed to you but could not be opened. It was corrupted, tampered with, or encrypted for a different key.",
+  "secLinkAuthTitle": "A phone failed the identity check",
+  "secLinkAuthBody": "It connected over Bluetooth but could not prove it owns the key it claimed. The connection was closed.",
+  "secKeyChangedTitle": "A contact's encryption key changed",
+  "secKeyChangedBody": "Their verification was removed. Compare safety numbers with them again before trusting this contact. A changed key is expected if they reinstalled the app.",
+  "secRateLimitedTitle": "A phone sent too much",
+  "secRateLimitedBody": "Its traffic went over the limit and the excess was dropped.",
+  "secMalformedTitle": "Unreadable data received",
+  "secMalformedBody": "Data that does not follow the protocol was ignored.",
+  "secNotAMemberTitle": "Someone acted without being allowed to",
+  "secNotAMemberBody": "A group message, invitation or update came from someone who is not a member or not the admin. It was ignored.",
+  "secUnauthorizedTitle": "Someone tried to change a message that is not theirs",
+  "secUnauthorizedBody": "A request to delete or edit a message came from someone who did not write it (and is not the group's admin). It was ignored.",
+  "secBadMediaTitle": "A picture or voice message was damaged",
+  "secBadMediaBody": "A file did not match its description (wrong size or checksum) or came with inconsistent parts, so it was discarded.",
+  "secProtocolTitle": "A phone broke the connection rules",
+  "secProtocolBody": "It sent data out of order or in an unexpected form, so the link was dropped.",
+  "secUnknownBody": "No description is available for this entry.",
+  "secUnknownPhone": "Unknown phone {tag}",
+  "@secUnknownPhone": {
+    "placeholders": {
+      "tag": {
+        "type": "String"
+      }
+    }
+  },
+  "bstTitleDevice": "This phone",
+  "bstTitleSupport": "Bluetooth Low Energy",
+  "bstTitlePermission": "Bluetooth permission",
+  "bstTitlePower": "Bluetooth switched on",
+  "bstTitleAdvertising": "Visible to other phones (advertising)",
+  "bstTitleScanning": "Looking for other phones (scanning)",
+  "bstTitleDiscovery": "Finding another phone",
+  "bstTitleConnection": "Connecting and proving identity",
+  "bstTitleExchange": "Sending data both ways",
+  "bstTitleMultihop": "Reaching phones through a relay",
+  "bstTitleNetwork": "Offline operation",
+  "bstStopped": "Stopped.",
+  "bstFixAbove": "Fix the problem above first.",
+  "bstNoBle": "This phone does not offer Bluetooth Low Energy.",
+  "bstNoBleAdvice": "This phone cannot take part in the mesh.",
+  "bstBleAvailable": "Bluetooth Low Energy is available.",
+  "bstWhereIos": "Settings > دەمەتەقێ > Bluetooth (turn it on).",
+  "bstWhereAndroid12": "Settings > Apps > دەمەتەقێ > Permissions > Nearby devices > Allow.",
+  "bstWhereOlder": "Settings > Apps > دەمەتەقێ > Permissions > Location > Allow (older Android needs it for Bluetooth scanning).",
+  "bstPermDenied": "Bluetooth permission has not been granted.",
+  "bstPermAdvice": "Tap \"Allow Bluetooth\" on the Home screen, or open {where}",
+  "@bstPermAdvice": {
+    "placeholders": {
+      "where": {
+        "type": "String"
+      }
+    }
+  },
+  "bstPermGranted": "Permission granted.",
+  "bstOff": "Bluetooth is switched off.",
+  "bstOffAdvice": "Switch Bluetooth on in your phone's quick settings, then run the test again.",
+  "bstPowerUnknown": "The phone has not reported its Bluetooth state yet.",
+  "bstPowerUnknownAdvice": "Wait a moment and run the test again.",
+  "bstOn": "Bluetooth is on.",
+  "bstCannotAdvertise": "This phone cannot advertise (act as a Bluetooth peripheral).",
+  "bstCannotAdvertiseAdvice": "It can still find and connect to other phones, but others cannot find it. Two phones that both lack this ability cannot connect to each other.",
+  "bstAdvertising": "Advertising the mesh service; other phones can see and connect to this one.",
+  "bstNotAdvertising": "The phone is not advertising.",
+  "bstNotAdvertisingAdvice": "Switch Bluetooth off and on, then run the test again. If it keeps failing this phone model may not support Bluetooth advertising.",
+  "bstDiscoveryStopped": "Discovery is stopped.",
+  "bstDiscoveryStoppedAdvice": "Open the Nearby tab and make sure the app is started.",
+  "bstScanning": "Scanning in short windows ({mode} mode), {count} scan(s) started so far.",
+  "@bstScanning": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "bstNoScan": "No scan could be started.",
+  "bstNoScanAdvice": "Check the Bluetooth permission and that Bluetooth is on.",
+  "bstHeardCount": "Heard {count} دەمەتەقێ phone(s).",
+  "@bstHeardCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "bstHeardStrongest": "Heard {count} دەمەتەقێ phone(s), strongest signal {dbm} dBm.",
+  "@bstHeardStrongest": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "dbm": {
+        "type": "int"
+      }
+    }
+  },
+  "bstNoneHeard": "No other دەمەتەقێ phone was heard in {seconds} seconds.",
+  "@bstNoneHeard": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "bstNoneHeardAdvice": "This is normal if nobody is nearby. Open the app on a second phone (Bluetooth on, within a few metres) and run the test again.",
+  "bstOlderAndroidLocation": " On Android 11 and older, scanning also needs the phone's Location switch (quick settings) to be on; دەمەتەقێ does not read your location, but those versions find nothing while it is off.",
+  "bstNeedsPhone": "Needs another phone in range.",
+  "bstWeConnected": "we connected to them",
+  "bstTheyConnected": "they connected to us",
+  "bstLinkLine": "{who} ({role}, {bytes} bytes per write)",
+  "@bstLinkLine": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      },
+      "role": {
+        "type": "String"
+      },
+      "bytes": {
+        "type": "String"
+      }
+    }
+  },
+  "bstConnectedOk": "Connected and verified key ownership with: {lines}.",
+  "@bstConnectedOk": {
+    "placeholders": {
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "bstNotConnected": "Heard other phones but could not finish connecting.",
+  "bstNotConnectedWith": "Heard other phones but could not finish connecting: {errors}",
+  "@bstNotConnectedWith": {
+    "placeholders": {
+      "errors": {
+        "type": "String"
+      }
+    }
+  },
+  "bstNotConnectedAdvice": "Move the phones closer (under 2 m), switch Bluetooth off and on on both, and close other apps that use Bluetooth heavily. Connection errors such as \"status 133\" are common on some Android phones and usually clear on retry.",
+  "bstNeedsConnected": "Needs a connected phone.",
+  "bstSmall": "{received}/{sent} small",
+  "@bstSmall": {
+    "placeholders": {
+      "received": {
+        "type": "int"
+      },
+      "sent": {
+        "type": "int"
+      }
+    }
+  },
+  "bstLarge": "{received}/{sent} large (1200 B, fragmented)",
+  "@bstLarge": {
+    "placeholders": {
+      "received": {
+        "type": "int"
+      },
+      "sent": {
+        "type": "int"
+      }
+    }
+  },
+  "bstRtt": ", round trip avg {avg} ms ({min}-{max})",
+  "@bstRtt": {
+    "placeholders": {
+      "avg": {
+        "type": "int"
+      },
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "bstExchangeLine": "{label}: {small}, {large}{rtt}",
+  "@bstExchangeLine": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "small": {
+        "type": "String"
+      },
+      "large": {
+        "type": "String"
+      },
+      "rtt": {
+        "type": "String"
+      }
+    }
+  },
+  "bstNothingBack": "Nothing came back. The link was established but data does not flow; try again closer together, or toggle Bluetooth on both phones.",
+  "bstSomeLost": "Some data was lost. Move closer together and test again.",
+  "bstSlowChunk": "The link uses the Bluetooth minimum of 20 bytes per write, so messages will be slow. This happens when the phones fail to negotiate a larger size.",
+  "bstNoRelay": "No phone is currently reachable only through a relay. Testing this needs three phones: A and C each in range of B but not of each other.",
+  "bstRelayLine": "{id} via {via} ({hops} links)",
+  "@bstRelayLine": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      },
+      "via": {
+        "type": "String"
+      },
+      "hops": {
+        "type": "int"
+      }
+    }
+  },
+  "bstRelayOk": "Reachable through a relay, based on signed announcements: {lines}.",
+  "@bstRelayOk": {
+    "placeholders": {
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "bstNetOffline": "{text}. Everything above ran without any internet connection.",
+  "@bstNetOffline": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "bstNetOnline": "{text}. The app does not use it; to prove offline operation, switch Wi-Fi and mobile data off (or use airplane mode with Bluetooth on) and run the test again.",
+  "@bstNetOnline": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "setLanguage": "Language",
+  "setLanguageBody": "The language of the whole app. Kurdish is the main one.",
+  "setAppearance": "Appearance",
+  "appearanceHeading": "Theme",
+  "appearanceSystem": "System default",
+  "appearanceSystemHelp": "Follows your phone's light or dark setting.",
+  "appearanceLight": "Light",
+  "appearanceLightHelp": "A pale page with white layers.",
+  "appearanceDark": "Dark",
+  "appearanceDarkHelp": "A near-black page that is easy on the eyes at night.",
+  "themeSwitchToLight": "Switch to the light theme",
+  "themeSwitchToDark": "Switch to the dark theme",
+  "setName": "Your name",
+  "setNameBody": "Anyone nearby can see this name. It is not unique and nobody checks it: two people can pick the same one, which is why contacts show a short id too.",
+  "setNicknameHint": "Nickname",
+  "setChangeName": "Change name",
+  "setFingerprint": "Your identity fingerprint",
+  "setFingerprintBody": "Your contacts compare a safety number with you to be sure it is really you.",
+  "setFingerprintCopied": "Fingerprint copied",
+  "setPermissions": "Permissions",
+  "setNotifications": "Notifications",
+  "setMeshBackground": "The mesh in the background",
+  "setBluetooth": "Bluetooth",
+  "setPrivacy": "Privacy and security",
+  "setHonesty": "How it works, and what it cannot do",
+  "setDanger": "Danger zone",
+  "setSearchHow": "How hard to look for people",
+  "modeBalanced": "Balanced",
+  "modeLowPower": "Battery saver",
+  "modeAggressive": "Continuous",
+  "modeBalancedHelp": "Searches about half of the time",
+  "modeLowPowerHelp": "Searches briefly and rarely: saves battery, finds people slowly",
+  "modeAggressiveHelp": "Searches non-stop: finds people fastest, uses the most battery",
+  "setSelfTest": "Bluetooth self-test",
+  "setSelfTestBody": "Check that this phone can find, connect to and talk to another phone",
+  "setInternet": "Internet",
+  "setChecking": "Checking…",
+  "setInternetBody": "{state}. دەمەتەقێ never uses the internet; turn it off if you want to see it work without.",
+  "@setInternetBody": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "netNone": "No Wi-Fi or mobile data",
+  "netWifi": "Wi-Fi is on (not used by this app)",
+  "netMobile": "Mobile data is on (not used by this app)",
+  "netWired": "Wired network (not used by this app)",
+  "netOther": "Another network is on (not used by this app)",
+  "netUnknown": "Network state unknown",
+  "setStorage": "Storage",
+  "setStorageBody": "What is kept on this phone, and how to free it",
+  "setKeepMessages": "Keep messages",
+  "setKeepMessagesBody": "Older messages are deleted from this phone",
+  "setRetForever": "Forever",
+  "setRetDay": "1 day",
+  "setRetDays": "{days} days",
+  "@setRetDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "setSecurityLog": "Security log",
+  "setSecurityLogBody": "Forged messages, failed identity checks, changed keys",
+  "setResetAction": "Reset identity",
+  "setResetTileBody": "Create new keys. Contacts must verify you again",
+  "setResetTitle": "Reset your identity?",
+  "setResetBody": "This creates a brand-new identity (new encryption and signing keys).\n\n• Your contacts will see you as a new, unverified person and must verify your new safety number.\n• Messages still travelling towards your old identity can no longer be read.\n• Messages waiting to be sent are discarded.\n• You can no longer take part in your groups (they know your old identity); your copies of those chats stay on this phone.\n• Your existing chats stay on this phone.\n\nThis cannot be undone.",
+  "setResetDone": "You have a new identity",
+  "setClearTile": "Delete all local data",
+  "setClearTileBody": "Messages, pictures, contacts, groups and keys",
+  "setClearTitle": "Delete everything on this phone?",
+  "setClearBody": "This permanently deletes all messages, pictures, voice messages, contacts, groups, rooms and group keys, the security log and your settings, and creates a new identity.\n\nNobody else is told, and copies on other phones are not affected. This cannot be undone.",
+  "setClearAction": "Delete everything",
+  "confirmWordDelete": "delete",
+  "setClearDone": "All local data was deleted",
+  "setVersionLine": "{name} {version} · protocol v{protocol}",
+  "@setVersionLine": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      },
+      "protocol": {
+        "type": "int"
+      }
+    }
+  },
+  "setNotifyTitle": "Message notifications",
+  "setNotifyBody": "Tell me when a message arrives while the app is closed or in the background. Only for messages that are addressed to you.",
+  "setNotifyShows": "What a notification shows",
+  "setNotifyFull": "Name and message",
+  "setNotifySender": "Name only",
+  "setNotifyHidden": "Nothing (just \"new message\")",
+  "setNotifyFullHelp": "Shows who wrote and what they wrote. Anyone who can see your lock screen can read it.",
+  "setNotifySenderHelp": "Shows who wrote, not what. \"New message\".",
+  "setNotifyHiddenHelp": "Shows only that something arrived. Neither who nor what.",
+  "setNotifyPublic": "Public rooms too",
+  "setNotifyPublicBody": "Off by default: a public room is everybody nearby talking and would never stop.",
+  "setRelayTitle": "Help relay messages for others",
+  "setRelayOn": "Your phone passes sealed messages on between people who are out of each other's range. It cannot read them. This is what makes the mesh reach further.",
+  "setRelayOff": "Off: your phone receives what is for you and sends its own messages, but passes nothing on for anybody else. People who rely on you to reach each other will not get through.",
+  "relayActivity": "{count, plural, =1{Since the app started: passed on 1 packet for others.} other{Since the app started: passed on {count} packets for others.}}",
+  "@relayActivity": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "relayActivityRefused": "{count, plural, =1{Since the app started: passed on 1 packet for others, declined {refused} because relaying is off.} other{Since the app started: passed on {count} packets for others, declined {refused} because relaying is off.}}",
+  "@relayActivityRefused": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "refused": {
+        "type": "int"
+      }
+    }
+  },
+  "setKeepAliveTitle": "Keep the mesh running in the background",
+  "setKeepAliveBody": "Shows a notification while it runs, and uses some battery. Without it Android may stop Bluetooth work soon after you lock the phone, and some phones do so even with it. This has not been tested on real phones yet.",
+  "setKeepAliveRefused": "Android did not allow it right now. Try again with the app on screen.",
+  "setBackgroundUse": "Background use",
+  "setBackgroundUseBody": "This phone suspends the app soon after you lock it or leave it, and nothing the app can ask for changes that. Messages are exchanged while the app is open.",
+  "setBatteryTitle": "Battery restrictions",
+  "setBatteryRestricted": "On: to save battery, Android may stop دەمەتەقێ in the background, even with the setting above. To keep the mesh running with the screen off, open the battery settings and choose \"Unrestricted\" (the words differ from phone to phone).",
+  "setBatteryUnrestricted": "Off: Android lets دەمەتەقێ run in the background without battery restrictions. Some phone makers add restrictions of their own.",
+  "setBatteryOpen": "Open battery settings",
+  "setBatteryCouldNotOpen": "This phone did not open its battery settings. Look for دەمەتەقێ under Apps in the phone's settings.",
+  "setPermBluetooth": "Bluetooth (nearby devices)",
+  "setPermBluetoothWhy": "To find and talk to phones near you. Never your location.",
+  "setAllowed": "Allowed",
+  "commonAllow": "Allow",
+  "setPermMic": "Microphone",
+  "setPermMicShort": "Only while you record a voice message",
+  "setPermCamera": "Camera",
+  "setPermCameraShort": "Only to take a picture you want to send",
+  "setPermPhotos": "Photos",
+  "setPermPhotosShort": "Only to pick a picture you want to send",
+  "setPermNotifShort": "Only to tell you a message arrived while the app is not on screen",
+  "honestyNoInternetTitle": "No internet, no accounts, no servers",
+  "honestyNoInternetBody": "Messages travel from phone to phone over Bluetooth Low Energy. Nothing is sent to the internet or to any company, and there is nothing to sign up for.",
+  "honestyRangeTitle": "Range, relaying and waiting",
+  "honestyRangeBody": "One Bluetooth link reaches roughly 10 to 30 metres, less through walls. If phones with the app are in between, a message can hop through them: up to {direct} hops for private messages and {group} for groups and public rooms. If nobody is in reach, a private message or a group message is kept and retried for up to {directHours} hours (public rooms: {roomHours} hours), then it is marked as not delivered. Phones that pass group and public traffic along also keep it for people who arrive later. Relaying has been tested with simulated radios only; it has not yet been proven on real phones, so use the Bluetooth self-test and your own phones to see how it behaves in practice.",
+  "@honestyRangeBody": {
+    "placeholders": {
+      "direct": {
+        "type": "int"
+      },
+      "group": {
+        "type": "int"
+      },
+      "directHours": {
+        "type": "int"
+      },
+      "roomHours": {
+        "type": "int"
+      }
+    }
+  },
+  "honestyMediaTitle": "Pictures, voice messages and videos",
+  "honestyMediaBody": "Pictures are shrunk to a few dozen kilobytes (about 640 pixels wide), voice messages are limited to {seconds} seconds, and videos are not shrunk at all: only a very short clip fits (you choose the limit under Settings > Storage). Bluetooth is slow: each hop takes a few seconds, more with several hops or a weak signal. Every file is checked against its SHA-256 before it is shown. In a group a picture or a video can stay incomplete if a piece of it is lost on every path; it then shows as not received. Videos cannot be sent to public rooms. Pictures, recordings and videos are kept in the app's private storage, not in your gallery, unless you choose \"Save to gallery\".",
+  "@honestyMediaBody": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "honestyBackgroundTitle": "The background is not guaranteed",
+  "honestyBackgroundBody": "دەمەتەقێ works best while it is open. Phones restrict what apps may do with Bluetooth in the background, and this app does not try to get around that. On Android you can switch on \"Keep the mesh running in the background\": it shows a notification while it runs and lets the app stay alive more often, but it is no guarantee, and it has not been tested on real phones yet. Phones that are locked or have the app closed may relay nothing.",
+  "honestyPrivateTitle": "Private chats",
+  "honestyPrivateBody": "Private messages, pictures and voice messages are end-to-end encrypted: only the person you send to can read them, even when other phones pass them along. Phones that pass something along can see who sent it and who it is for (their public keys), roughly when, and its approximate size, but not the content. Anyone nearby can see that a phone is advertising دەمەتەقێ, and the name you chose.",
+  "honestyGroupsTitle": "Groups",
+  "honestyGroupsBody": "A group is private: its messages are encrypted with a key that only its members have, and nothing about it (its name, its members, that it exists) is ever broadcast. Only the person who created it can add or remove people, and every change gives the group a new key, so someone who was removed cannot read what is sent afterwards. They keep what they already received. If a key change reaches a member later than the messages sent right after it, those messages may be missed.",
+  "honestyRoomsTitle": "Public rooms",
+  "honestyRoomsBody": "A public room is NOT private. Everything said in it - text, pictures and voice - can be read by every phone that carries it, and by anyone who joins. Messages are signed, so a relay cannot change a word or forge an author, but names can be chosen freely: the short id after a name is what tells two people with the same name apart. The built-in #mesh room is for everyone nearby; rooms people create are announced to nearby phones and disappear after a day unless their creator's phone keeps renewing them. Messages in public rooms are removed from this phone six hours after they arrive.",
+  "honestyDeleteTitle": "Deleting and editing",
+  "honestyDeleteBody": "Delete for me removes a message from this phone only. Delete for everyone sends a request to the other phones: it works only if they receive it in time, and it cannot reach a copy somebody saved or photographed. Editing sends the new text in the same way. Both are possible for two days after a message is sent.",
+  "honestyVerifyTitle": "Who are you really talking to?",
+  "honestyVerifyBody": "The first time two phones meet, there is no way to know a key is really that person's. Open their contact page, compare the safety number with them in person or on a call you trust, and only then mark them verified. Until then, treat names as unverified.",
+  "honestyStoredTitle": "What is stored on this phone",
+  "honestyStoredBody": "Your keys (and the keys of your groups) are kept in the phone's secure storage (Android Keystore / iOS Keychain). Chat history, pictures and recordings are stored in the app's private storage without an extra layer of encryption beyond your phone's own lock screen and disk encryption, and on an iPhone they may be included in device backups. Anyone who unlocks your phone can read your chats.",
+  "honestyAuditTitle": "Not independently audited",
+  "honestyAuditBody": "The encryption uses standard algorithms (HPKE with X25519 and ChaCha20-Poly1305, Ed25519 signatures), and the core encryption is tested against the published test vectors. But this app's code has not been reviewed by an independent security expert. Do not rely on it where your safety or freedom depends on it.",
+  "reachDirectLong": "Directly connected",
+  "reachRelayLong": "{hops, plural, =1{Via relay (1 hop)} other{Via relay ({hops} hops)}}",
+  "@reachRelayLong": {
+    "placeholders": {
+      "hops": {
+        "type": "int"
+      }
+    }
+  },
+  "reachOffline": "Offline",
+  "reachDirectShort": "Direct",
+  "reachRelayShort": "{hops, plural, =1{Relay · 1 hop} other{Relay · {hops} hops}}",
+  "@reachRelayShort": {
+    "placeholders": {
+      "hops": {
+        "type": "int"
+      }
+    }
+  },
+  "deliveryPending": "Pending",
+  "deliverySentCount": "Sent · {done}/{total}",
+  "@deliverySentCount": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "deliverySent": "Sent",
+  "deliveryDelivered": "Delivered",
+  "deliveryDeliveredVia": "{hops, plural, =1{Delivered · 1 hop} other{Delivered · {hops} hops}}",
+  "@deliveryDeliveredVia": {
+    "placeholders": {
+      "hops": {
+        "type": "int"
+      }
+    }
+  },
+  "deliveryFailed": "Not delivered",
+  "deliveryUndecryptable": "Could not decrypt or verify",
+  "connError": "Bluetooth error",
+  "connStarting": "Starting…",
+  "connNotStarted": "Not started",
+  "connNotSupported": "Not supported",
+  "connPermissionNeeded": "Permission needed",
+  "connBluetoothOff": "Bluetooth off",
+  "connNearbyRelayed": "{direct} nearby · {relayed} via relay",
+  "@connNearbyRelayed": {
+    "placeholders": {
+      "direct": {
+        "type": "int"
+      },
+      "relayed": {
+        "type": "int"
+      }
+    }
+  },
+  "connNearby": "{direct} nearby",
+  "@connNearby": {
+    "placeholders": {
+      "direct": {
+        "type": "int"
+      }
+    }
+  },
+  "connViaRelay": "{relayed} via relay",
+  "@connViaRelay": {
+    "placeholders": {
+      "relayed": {
+        "type": "int"
+      }
+    }
+  },
+  "connSearching": "Searching…",
+  "offlineTipNone": "There is no internet connection. دەمەتەقێ does not need one: messages travel by Bluetooth.",
+  "offlineTipOn": "The phone has internet, but دەمەتەقێ does not use it: messages travel by Bluetooth.",
+  "offlineBadge": "Offline",
+  "internetOnBadge": "Internet on",
+  "navUnreadLabel": "{label}, {count} unread",
+  "@navUnreadLabel": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "peerSeenAgo": "seen {ago}",
+  "@peerSeenAgo": {
+    "placeholders": {
+      "ago": {
+        "type": "String"
+      }
+    }
+  },
+  "peerNoKeyYet": "no encryption key yet",
+  "commonStart": "Start",
+  "commonOpenSettings": "Open settings",
+  "commonDismiss": "Dismiss",
+  "radioCouldNotStart": "Bluetooth could not start",
+  "radioNotStarted": "Bluetooth is not started",
+  "radioNotStartedBody": "دەمەتەقێ needs Bluetooth to find and talk to nearby phones.",
+  "radioNotVisible": "This phone can't be found by others",
+  "radioNotVisibleBody": "It can find and connect to other phones, but it cannot advertise itself over Bluetooth. Two phones that both lack this cannot connect to each other.",
+  "radioNoBle": "Bluetooth Low Energy is not available",
+  "radioNoBleBody": "This device does not support the Bluetooth feature دەمەتەقێ is built on, so it cannot take part in the mesh.",
+  "radioPermission": "Bluetooth permission needed",
+  "radioPermissionBody": "دەمەتەقێ needs permission to use Bluetooth (the \"Nearby devices\" permission on recent Android, Bluetooth on iPhone) to find and talk to nearby phones. It never uses your location.",
+  "radioAllow": "Allow Bluetooth",
+  "radioOff": "Bluetooth is turned off",
+  "radioOffBody": "Switch Bluetooth on in your phone's quick settings. دەمەتەقێ will reconnect to nearby phones by itself.",
+  "radioProblem": "Bluetooth problem",
+  "identityResetTitle": "Your identity was reset",
+  "identityResetBody": "Your encryption keys could not be read from this phone's secure storage, so a new identity was created. Your contacts will need to verify you again, and messages sent to your old identity can no longer be read.",
+  "versionNewerTitle": "A newer دەمەتەقێ is nearby",
+  "versionNewerBody": "A phone near you runs a newer version of دەمەتەقێ. The two phones cannot talk to each other until this one is updated too.",
+  "versionOlderTitle": "A phone nearby needs an update",
+  "versionOlderBody": "A phone near you runs an older version of دەمەتەقێ. The two phones cannot talk to each other until that one is updated too.",
+  "permMicTitle": "Allow the microphone?",
+  "permMicWhy": "دەمەتەقێ needs the microphone only while you are recording a voice message.",
+  "permMicPrivacy": "The recording goes over Bluetooth to the people in that chat and is never uploaded anywhere. Nothing is recorded when you are not holding a recording open.",
+  "permMicThing": "the microphone",
+  "permMicOff": "The microphone is switched off",
+  "permCameraTitle": "Allow the camera?",
+  "permCameraWhy": "دەمەتەقێ needs the camera to take a picture you want to send.",
+  "permCameraPrivacy": "The picture is shrunk and sent over Bluetooth to the people in that chat. It is not saved to your gallery and never uploaded anywhere.",
+  "permCameraThing": "the camera",
+  "permCameraOff": "The camera is switched off",
+  "permPhotosTitle": "Allow access to your photos?",
+  "permPhotosWhy": "دەمەتەقێ needs to open your photo library so you can pick a picture to send.",
+  "permPhotosPrivacy": "Only the picture you choose is used. It is shrunk and sent over Bluetooth to the people in that chat, and never uploaded anywhere.",
+  "permPhotosThing": "your photos",
+  "permPhotosOff": "Access to your photos is switched off",
+  "permNotifTitle": "Allow notifications?",
+  "permNotifWhy": "دەمەتەقێ uses notifications to tell you when a message arrives while the app is closed or in the background.",
+  "permNotifPrivacy": "You choose how much a notification shows: the name and the message, only the name, or nothing but \"new message\". Notifications are made on this phone from messages that reached it; nothing is sent to any server.",
+  "permNotifThing": "notifications",
+  "permNotifOff": "Notifications are switched off",
+  "permNotAvailable": "Not available",
+  "permUnavailableBody": "This phone does not allow دەمەتەقێ to use {thing} (it may be restricted by a parent or an administrator).",
+  "@permUnavailableBody": {
+    "placeholders": {
+      "thing": {
+        "type": "String"
+      }
+    }
+  },
+  "permNotNow": "Not now",
+  "permTurnOnInSettings": "To use it, turn it on for دەمەتەقێ in your phone's settings. Nothing else in the app needs it.",
+  "voicePause": "Pause voice message",
+  "voicePlay": "Play voice message",
+  "mediaNotReceived": "Could not be received",
+  "mediaReceiving": "Receiving… {percent}%",
+  "@mediaReceiving": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "pictureNotReceived": "Picture could not be received",
+  "videoCannotPlay": "This video cannot be played on this phone.",
+  "videoNotReceived": "Video could not be received",
+  "videoReceiving": "Receiving video… {percent}%",
+  "@videoReceiving": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "videoPlay": "Play video",
+  "introDirectTitle": "Say hello to {name}",
+  "@introDirectTitle": {
+    "description": "The heading of an empty private chat, under the little ghost.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "introGroupTitle": "Welcome to {name}",
+  "@introGroupTitle": {
+    "description": "The heading of a group that has no messages yet.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "fwdNoVideoInRooms": "A video cannot go to a public room",
+  "@fwdNoVideoInRooms": {
+    "description": "Under a public room in the forward list when a video is selected."
+  },
+  "setNotifyNotAllowed": "Notifications are on here, but the phone has not allowed them yet, so none will appear."
+}

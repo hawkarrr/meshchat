@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<!--
+	  The languages of the app (Kurdish first). Without this list iOS treats the app
+	  as English-only. The permission texts below are translated in
+	  ckb.lproj/InfoPlist.strings and ar.lproj/InfoPlist.strings.
+	-->
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>ckb</string>
+		<string>ar</string>
+		<string>en</string>
+	</array>
+	<key>CFBundleDisplayName</key>
+	<string>دەمەتەقێ</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>دەمەتەقێ</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<!--
+	  Bluetooth is the only radio Damatqe uses. This text is what iOS shows in
+	  the permission prompt. There are intentionally no UIBackgroundModes: the app
+	  works while it is open, and does not try to keep running in the background.
+	-->
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>دەمەتەقێ uses Bluetooth to find and talk to nearby phones that also run دەمەتەقێ. It does not use your location or the internet.</string>
+	<!--
+	  Asked for only when the person records a voice message, takes a picture, or
+	  chooses a picture to send - never at launch.
+	-->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>دەمەتەقێ records your voice only while you are making a voice message. It is sent over Bluetooth to the people in that chat and is never uploaded anywhere.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>دەمەتەقێ uses the camera to take a picture you want to send. It is sent over Bluetooth to the people in that chat and is never uploaded anywhere.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>دەمەتەقێ opens your photos so you can choose a picture to send over Bluetooth to the people in a chat. Only the picture you choose is used.</string>
+	<!--
+	  Asked for only when the person chooses "Save to gallery" on a received picture
+	  or video.
+	-->
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>دەمەتەقێ adds a picture or video to your photos only when you choose "Save to gallery" on it.</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneClassName</key>
+					<string>UIWindowScene</string>
+					<key>UISceneConfigurationName</key>
+					<string>flutter</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

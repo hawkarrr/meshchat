@@ -1,0 +1,9 @@
+# Text of the app in Kurdish (Sorani, the main language), Arabic and English.
+# `flutter gen-l10n` turns the .arb files into lib/l10n/app_localizations*.dart
+# (`flutter pub get` and `flutter run` do it too). Run it after changing an .arb file.
+arb-dir: lib/l10n
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false
+preferred-supported-locales: [ckb, ar, en]

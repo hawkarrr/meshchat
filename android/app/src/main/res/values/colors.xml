@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#0b1527</color>
+    <!-- The deep navy the app draws on, so there is no white flash while it starts. -->
+    <color name="launch_background">#0E1621</color>
+</resources>
